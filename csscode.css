@@ -1,0 +1,65 @@
+body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+    .container {
+      display: flex;
+      max-width: 1000px;
+      margin: 30px auto;
+      background: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .left {
+      width: 30%;
+      background: #2c2f36;
+      color: white;
+      padding: 20px;
+    }
+    .left img {
+      width: 100%;
+      border-radius: 50%;
+    }
+    .left h3 {
+      margin-top: 15px;
+    }
+    .right {
+      width: 70%;
+      padding: 20px;
+    }
+    .right h1 {
+      border-bottom: 1px solid #ccc;
+    }
+    .section {
+      margin: 20px 0;
+    }
+    .bar {
+      height: 8px;
+      background: #ddd;
+      border-radius: 5px;
+      overflow: hidden;
+      margin-bottom: 10px;
+    }
+    .bar-fill {
+      height: 100%;
+      background: #2c2f36;
+    }
+    .skills p {
+      margin: 5px 0;
+    }
+   #profile-img {
+  width: 170px;             
+  height: 170px;
+  object-fit: cover;       
+  border-radius: 50%;       
+  border: 2px solid #fff;   
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.3); 
+  transition: all 0.4s ease;
+   margin-left: 1cm;
+}
+
+#profile-img:hover {
+  box-shadow: 0 0 35px rgba(255, 255, 255, 0.8); 
+}
+

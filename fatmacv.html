@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Fatma Nur YAVUZER - CV</title>
+  <link rel="stylesheet" href="csscode.css">
+</head>
+<body>
+  <div class="container">
+    <div class="left">
+      
+    
+     <img src="mypicture.jpg" id="profile-img" />
+      <p><strong>Name:</strong><br>Fatma Nur YAVUZER</p>
+      <p><strong>Address:</strong><br>SAHINEFENDI KÖYÜ  NO: 29A SAHINEFENDI / ÜRGÜP / NEVŞEHİR</p>
+      <p><strong>Phone:</strong><br>0553 886 0374</p>
+      <p><strong>Email:</strong><br><span id="email">fatmayvzr6@gmail.com</span></p>
+      <p><strong>Driver's License:</strong><br>B</p>
+      <h3>Interests</h3>
+      <p>Developing algorithms, discovering new technologies and programming languages.</p>
+      <h3>Languages</h3>
+      <p>English - B2</p>
+    </div>
+    <div class="right">
+      <h1>Fatma Nur YAVUZER</h1>
+      <p>
+        I'm a 2nd-year Computer Engineering student at Karabük University. I am a disciplined and responsible person who loves learning and development. I am a team player with strong communication skills. I enjoy programming and improving myself in this field. I am to deepen my knowledge by combining theory with practice. I am also interested in problem solving, analytical thinking and new technologies. Through internships and projects, I aim to actively participate in the industry and improve both my technical and professional skills.
+      </p>
+
+      <div class="section">
+        <h2>Education & Qualifications</h2>
+        <p><strong>Computer Engineering (2nd-year student)</strong><br>Karabük University, Karabük<br>Aug 2022 - Present</p>
+      </div>
+
+      <div class="section skills">
+        <h2>Skills</h2>
+        <p>Office programs</p>
+        <div class="bar"><div class="bar-fill" style="width: 80%"></div></div>
+
+        <p>C language</p>
+        <div class="bar"><div class="bar-fill" style="width: 70%"></div></div>
+
+        <p>Python</p>
+        <div class="bar"><div class="bar-fill" style="width: 65%"></div></div>
+
+        <p>Java</p>
+        <div class="bar"><div class="bar-fill" style="width: 55%"></div></div>
+
+        <p>HTML</p>
+        <div class="bar"><div class="bar-fill" style="width: 60%"></div></div>
+
+        <p>CSS</p>
+        <div class="bar"><div class="bar-fill" style="width: 60%"></div></div>
+
+        <p>PHP</p>
+        <div class="bar"><div class="bar-fill" style="width: 50%"></div></div>
+
+        <p>JavaScript</p>
+        <div class="bar"><div class="bar-fill" style="width: 50%"></div></div>
+
+        <p>SQL</p>
+        <div class="bar"><div class="bar-fill" style="width: 55%"></div></div>
+      </div>
+
+      <div class="section">
+        <h2>Courses</h2>
+        <p><strong>Data Science and AI Engineering Mini Bootcamp</strong><br><em>Miuul</em><br>Apr 2025 - May 2025</p>
+      </div>
+    </div>
+  </div>
+  <script>
+  const emailSpan = document.getElementById("email");
+  const email = emailSpan.textContent;
+
+  
+  emailSpan.style.color = "blue";
+  emailSpan.style.cursor = "pointer";
+  emailSpan.style.textDecoration = "underline";
+
+  
+  emailSpan.addEventListener("click", function () {
+    window.location.href = `mailto:${email}`;
+    
+ 
+  
+
+
+  });
+</script>
+
+</body>
+</html>
